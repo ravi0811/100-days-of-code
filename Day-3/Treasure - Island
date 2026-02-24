@@ -1,0 +1,29 @@
+print("welcome to the treasure island")
+print("your mission is to find the treasure")
+decision1= input('Do you want to start the game "yes" or "no" \n'). lower()
+if decision1 == "yes":
+    decision2= input('You are at roadcross , Where do you want to go "Left" or "Right" \n '). lower()
+    if decision2 == "left":
+        print("Congratulations, You are one step up in your destination.")
+        decision3 =input('Now you are at river. You want to "swim" or "wait" for the boat "\n'). lower()
+        if decision3== "wait":
+            print("Good. You successfully crossed the river")
+            decision4= input('Now your are in front of cave which gate do you want to open \n "Red" "Green" "Blue"\n'). lower()
+            if decision4 == "green":
+                print("Congratulations. You found the treasure")
+            elif decision4== "blue":
+                print("You got attacked by an any trout. Game over")
+            elif decision4== "red":
+                print("Oh no. You died by Fire Game over")
+            else:
+                print("Invalid output")
+        elif decision3== "swim":
+            print("Game over, You were killed by the sharks while swimming.")
+        else:
+            print("Invalid input")
+    elif decision2 == "right":
+        print("Game over, You were killed by militant")
+    else:
+        print("Invalid Input")
+else:
+    print("Thank you good bye:) ")
