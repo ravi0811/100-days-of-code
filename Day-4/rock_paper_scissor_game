@@ -1,0 +1,58 @@
+import random
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+
+'''
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissor = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+hand = [rock,paper,scissor]
+
+
+
+#computer choice
+computer_input = random.randint(0,2)
+computer_choice = hand[computer_input]
+
+#user choice
+user_input= int(input("What you want to choose, Type: \n'0' for 'rock' \n'1' for 'paper' \n'2' for 'scissor'\n"))
+
+
+if user_input >=0 and user_input<= 2 :
+    user_choice= hand[user_input]
+    print(f"You = \n{user_choice}")
+    print(f"computer = \n{computer_choice}")
+    if user_input != computer_input:
+        if user_input == 0 and computer_input == 2 or\
+            user_input == 1 and computer_input == 0 or \
+            user_input == 2 and computer_input == 1:
+            print("You win")
+        else:
+            print("You lose")
+    else:
+        print("It's a draw")
+
+else:
+    print("invalid input")
