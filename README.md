@@ -40,6 +40,8 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 35:** API Authentication & SMS Alerts (Environment Variables, Twilio API, and Weather Data Slicing)
 * **Day 36:** Stock Trading News Alert (Multi-API Integration, Time-series Data Parsing, and Logic-driven News Fetching)
 * **Day 37:** Habit Tracking App (HTTP POST/PUT/DELETE, Header Authentication, and Pixela API)
+* **Day 38:** Workout Tracking with NLP (Nutritionix API, Sheety API, and Google Sheets Integration)
+* **Day 41:** Web Foundation (Client-Server Architecture, DNS Resolution, and HTTP Protocol Basics)
 
 
 ## My Goals
