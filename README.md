@@ -42,6 +42,7 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 37:** Habit Tracking App (HTTP POST/PUT/DELETE, Header Authentication, and Pixela API)
 * **Day 38:** Workout Tracking with NLP (Nutritionix API, Sheety API, and Google Sheets Integration)
 * **Day 41:** Web Foundation (Client-Server Architecture, DNS Resolution, and HTTP Protocol Basics)
+* **Day 42:** Web Foundation & Intro to HTML5 - Built a Birthday Invite Website using semantic tags and asset embedding.
 
 
 ## My Goals
