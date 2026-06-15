@@ -43,7 +43,8 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 38:** Workout Tracking with NLP (Nutritionix API, Sheety API, and Google Sheets Integration)
 * **Day 41:** Web Foundation (Client-Server Architecture, DNS Resolution, and HTTP Protocol Basics)
 * **Day 42:** Web Foundation & Intro to HTML5 - Built a Birthday Invite Website using semantic tags and asset embedding.
-* **Day 43:** Advanced HTML5 📊📋 (HTML Tables, Interactive Forms, Input Validation, and Layout Architecture)
+* **Day 43:** Advanced HTML5 (HTML Tables, Interactive Forms, Input Validation, and Layout Architecture)
+* **Day 44:** The CSS Box Model & Fonts - Mastered Padding, Margin, and Typography; Built a Motivational Poster Website.
 
 ## My Goals
 - Master Python.
