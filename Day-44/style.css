@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+}
+
+div{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  color:white;
+  font-size: 17px;
+  text-transform: uppercase;
+  
+}
+
+#catImage{
+    height: 10rem;
+}
+
+p{
+    color: white;
+    font-size: 10px;
+}
