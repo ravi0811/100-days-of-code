@@ -45,6 +45,7 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 42:** Web Foundation & Intro to HTML5 - Built a Birthday Invite Website using semantic tags and asset embedding.
 * **Day 43:** Advanced HTML5 (HTML Tables, Interactive Forms, Input Validation, and Layout Architecture)
 * **Day 44:** The CSS Box Model & Fonts - Mastered Padding, Margin, and Typography; Built a Motivational Poster Website.
+* **Day 45:** Web Scraping with BeautifulSoup - Parsed HTML structures, extracted a "100 Must-Watch Movies" list, and automated text file generation.
 
 ## My Goals
 - Master Python.
