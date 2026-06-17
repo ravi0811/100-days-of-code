@@ -24,4 +24,4 @@ for i in moviesList:
 
 with open("moviesList.txt","w",encoding="utf-8") as file:
     for item in moviesList:
-        file.write(f"str({item}) \n")
+        file.write(f"{item} \n")
