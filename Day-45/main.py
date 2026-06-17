@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import requests
-# import lxml
 URL = "https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/"
 
 
@@ -13,7 +12,7 @@ soup= BeautifulSoup(arc_webpage,"html.parser")
 all_names= soup.find_all(name="h3",class_="title")
 moviesList= []
 for name in all_names:
-    # temp_names= " ".join(name.getText().split()[1:4])
+
     moviesList.append(name.getText())
 
 moviesList.reverse()
