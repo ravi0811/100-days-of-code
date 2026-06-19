@@ -47,6 +47,7 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 44:** The CSS Box Model & Fonts - Mastered Padding, Margin, and Typography; Built a Motivational Poster Website.
 * **Day 45:** Web Scraping with BeautifulSoup - Parsed HTML structures, extracted a "100 Must-Watch Movies" list, and automated text file generation.
 * **Day 46:** Billboard to YouTube Music Automator (BeautifulSoup Web Scraping, Music API Interaction, Data Sanitization, and Automated Playlist Compilation)
+* **Day 47:** Amazon Price Tracker & Email Notifier (Live DOM Scraping, Anti-Bot Header Spoofing, Data Sanitization, and Automated SMTP Email Alerts)
 
 ## My Goals
 - Master Python.
