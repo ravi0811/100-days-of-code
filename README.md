@@ -48,6 +48,7 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 45:** Web Scraping with BeautifulSoup - Parsed HTML structures, extracted a "100 Must-Watch Movies" list, and automated text file generation.
 * **Day 46:** Billboard to YouTube Music Automator (BeautifulSoup Web Scraping, Music API Interaction, Data Sanitization, and Automated Playlist Compilation)
 * **Day 47:** Amazon Price Tracker & Email Notifier (Live DOM Scraping, Anti-Bot Header Spoofing, Data Sanitization, and Automated SMTP Email Alerts)
+* **Day 48:** Browser Automation with Selenium (WebDriver Initialization, Advanced CSS/XPATH Locators, and Dynamic Data Dictionary Mapping)
 
 ## My Goals
 - Master Python.
