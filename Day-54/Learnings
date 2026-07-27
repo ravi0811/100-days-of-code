@@ -1,0 +1,119 @@
+================================================================================
+                    DAY 38 NOTES: FLASK & PYTHON DECORATORS
+================================================================================
+
+1. SPECIAL VARIABLES: __name__ AND __main__
+--------------------------------------------------------------------------------
+Python uses special double-underscore ("dunder") variables to manage script 
+execution context.
+
+* __name__: A built-in variable that holds the name of the current module, class, 
+  function, or method.
+  - If a file is imported as a module, __name__ is set to the file's name 
+    (e.g., "random").
+  - If a file is executed directly, __name__ is set to "__main__".
+
+* __main__: The top-level scope environment where code executes when a file is 
+  run as the entry point script.
+
+Code Example:
+    if __name__ == "__main__":
+        # This block runs ONLY if the script is executed directly,
+        # not when imported into another file.
+        app.run()
+
+
+2. FUNCTIONS AS FIRST-CLASS OBJECTS
+--------------------------------------------------------------------------------
+In Python, functions are treated like any other variable (strings, integers, 
+lists). This means:
+
+1. They can be assigned to variables.
+2. They can be passed as arguments to other functions.
+3. They can be nested inside other functions.
+4. They can be returned from other functions.
+
+Code Example (Nested & Returned Functions):
+    def outer_function():
+        print("I am outer")
+        
+        def nested_function():
+            print("I am inner")
+            
+        # Return the function object itself (WITHOUT parentheses)
+        return nested_function 
+
+    # Call outer_function, which returns nested_function
+    inner_function = outer_function() 
+
+    # Execute the returned nested function
+    inner_function() 
+    
+    # Output:
+    # I am outer
+    # I am inner
+
+
+3. PYTHON DECORATORS
+--------------------------------------------------------------------------------
+A Decorator is a function that takes another function as an argument, adds 
+some functionality to it, and returns the modified function without changing 
+the original source code.
+
+* Syntactic Sugar (@):
+  Writing @delay_decorator above a function is just a shorthand way of passing 
+  that function into the decorator.
+
+  @delay_decorator
+  def say_hello():
+      print("Hello")
+
+  # Is exactly the same as:
+  # say_hello = delay_decorator(say_hello)
+
+Code Example (Decorator Implementation):
+    import time
+
+    def delay_decorator(function):
+        def wrapper_function():
+            time.sleep(2)       # Action before main execution
+            function()          # Call the original function
+            # Additional actions can go after execution
+
+        # CRITICAL: Return the function object itself, DO NOT call it with ()
+        return wrapper_function 
+
+    @delay_decorator
+    def say_hello():
+        print("Hello")
+
+    say_hello()  # Waits 2 seconds, then prints "Hello"
+
+
+4. FLASK BASICS
+--------------------------------------------------------------------------------
+Flask is a lightweight web application framework in Python. It relies heavily 
+on decorators to map web URLs to Python functions (routing).
+
+Code Example:
+    from flask import Flask
+
+    # Create a Flask application instance using the current module's name
+    app = Flask(__name__)
+
+    # The @app.route decorator maps the URL path '/' to hello_world()
+    @app.route("/")
+    def hello_world():
+        return "<p>Hello, World!</p>"
+
+    if __name__ == "__main__":
+        # Runs the local development server directly
+        app.run()
+
+Execution Notes:
+* With app.run(): You can run the file directly using 'python main.py'.
+* Without app.run(): You must launch the server using the terminal command 'flask run'.
+
+
+================================================================================
+                   
