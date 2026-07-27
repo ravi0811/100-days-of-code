@@ -54,6 +54,7 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 51:** Internet Speed Complaint Bot (Selenium WebDriver, Network Metric Extraction, Conditional Performance Tracking, and Automated Social Media Posting)
 * **Day 52:** Object-Oriented Web Automator (Selenium WebDriver, JavaScript DOM Scroll Injection, OOP Class Structuring, and Dynamic Element State Filtering)
 * **Day 53:** Web Scraping Capstone Project (BeautifulSoup Extraction, Data Sanitization, Selenium Form Automation, and Multi-Library Data Pipelines)
+* **Day 54:** Decorators and Flask basic (No project)
 
 ## My Goals
 - Master Python.
