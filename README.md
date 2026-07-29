@@ -55,6 +55,7 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 52:** Object-Oriented Web Automator (Selenium WebDriver, JavaScript DOM Scroll Injection, OOP Class Structuring, and Dynamic Element State Filtering)
 * **Day 53:** Web Scraping Capstone Project (BeautifulSoup Extraction, Data Sanitization, Selenium Form Automation, and Multi-Library Data Pipelines)
 * **Day 54:** Decorators and Flask basic (No project)
+* **Day 55:** Flask Architecture & Advanced Decorators (Dynamic Path Converters, Custom Auth Decorators, Hot-Reload Debug Server, and Higher-Lower Web Game Server)
 
 ## My Goals
 - Master Python.
