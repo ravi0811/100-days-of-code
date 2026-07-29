@@ -9,7 +9,7 @@ app= Flask(__name__)
 def display():
 
     return '<h1>Guess a number between 0 and 9 \n</h1>' \
-    '<img src="https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif"widht=200>'
+    '<img src="https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif"width=200>'
 
 
 @app.route("/<int:usernumber>")
