@@ -60,6 +60,8 @@ Welcome to my coding journey! I am documenting my daily progress as I master Pyt
 * **Day 58:** Responsive Frontend Architecture (Bootstrap 5.3 Grid System, Dynamic Breakpoints, Utility Classes, and TinDog Web Layout Deployment)
 * **Day 59:** Blog Web Application Upgrade (Bootstrap Clean-Blog Theme Integration, Static Asset Serving, Modular Jinja2 Templating with Inclusions, and Dynamic Multi-Page Routing)
 * **Day 60:** Interactive Form Handling & Email Automation (HTTP GET/POST Route Handlers, Request Payload Parsing, Conditional Jinja2 UI State Rendering, and Automated SMTP Email Alerts)
+* **Day 61:** Advanced Form Architecture & Web Security (Flask-WTF Integration, WTForms Schema Declarations, CSRF Token Injection, Chained Field Validators, and Bootstrap-Flask Rendering)
+* **Day 62:** Coffee & Wifi Project (Flask-WTF `SelectField` Component Configuration, CSV File Data Pipelines, Server-Side `validate_on_submit()` Ingestion, and Bootstrap Data Table Rendering)
 
 ## My Goals
 - Master Python.
